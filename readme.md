@@ -27,7 +27,7 @@ Execute with Python3
 
 To execute this program, please run below command.
 
-> python ./src/main.py 10 ./input/input.txt
+> python ./src/main.py   10   ./input/input.txt
 
 format: python execute_file  [arg1]x [arg2]input_path
 x: the first parameter for TopXSimpleLTVCustomers(x, D), default = 10
@@ -41,9 +41,13 @@ The four events: customer, visit, image, order are stored as key in rootList, th
 Definition of rootList:
 
 >    rootList = {}
+
 >    rootList['customer'] = {}
+
 >    rootList['visit'] = {}
+
 >    rootList['image'] = {}
+
 >    rootList['order'] = {}
 
 
